@@ -1,0 +1,14 @@
+#text {
+	position: relative;
+	top: 10vw;
+}
+#nav-left {
+    color: red;
+    font-size: 2vw;
+}
+#nav-right {
+	color: white;
+}
+#nav-right:hover {
+	color: rgb(30,144,255);
+}

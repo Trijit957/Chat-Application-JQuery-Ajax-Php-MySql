@@ -1,0 +1,39 @@
+#text {
+	text-align: center;
+	position: relative;
+	top: 15vw;
+}
+.title {
+    font-size: 4vw;
+    font-weight: bold;
+}
+.sub-title {
+    font-size: 2vw;
+}
+#nav-left {
+    color: red;
+    font-size: 2vw;
+}
+#nav-right {
+	color: white;
+}
+#nav-right:hover {
+	color: rgb(30,144,255);
+}
+.content {
+	position: relative;
+	top: 10vw;
+}
+@media(max-width: 767px) {
+	#nav-left {
+		font-size: 5vw;
+	}
+	#text {
+	text-align: center;
+	position: relative;
+	top: 25vw;
+    }
+    #button {
+    	margin-bottom: 5vh;
+    }
+}
